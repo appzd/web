@@ -54,7 +54,9 @@ labels: ['Series A'],
 barColors: ['#5058AB'],
 gridTextSize: 11,
 hideHover: 'auto',
-barRatio: 0.4
+barRatio: 0.4,
+stacked:true,
+resize:true
 
 });
 
