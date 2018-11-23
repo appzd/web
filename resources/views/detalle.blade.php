@@ -38,15 +38,15 @@
     new Morris.Bar({
 element: 'morrisBarm',
 data: [
-{ y: 'Reformador',  a: 7, count:7  },
-{ y: 'Ayudador', a: 9,count:7 },
+{ y: 'Reformador',  a: 2, count:7  },
+{ y: 'Ayudador', a: 4,count:7 },
 { y: 'Eficiente', a: 4,count:7 },
-{ y: 'Individualista', a: 7,count:7 },
+{ y: 'Individualista', a: 3,count:7 },
 { y: 'Analizador', a: 2,count:7},
-{ y: 'Leal', a: 4,count:7},
+{ y: 'Leal', a: 9,count:9},
 { y: 'Inspirador', a: 5,count:7},
 { y: 'Desafiador', a: 2,count:7},
-{ y: 'Pacificador', a: 6,count:7},
+{ y: 'Pacificador', a: 2,count:7},
 ],
 xkey: 'y',
 ykeys: ['a'],
@@ -54,7 +54,7 @@ labels: ['Series A'],
 barColors: ['#5058AB'],
 gridTextSize: 11,
 hideHover: 'auto',
-barRatio: 0.4
+barRatio: 0.2
 
 });
 
